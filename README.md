@@ -17,6 +17,7 @@ You'll need:
 * sbcl
 * quicklisp 
 * ultralisp
+* [cl-dk-prelude](https://github.com/certainty/cl-dk-prelude) in your local-projects for quicklisp
 
 ## Installation
 
