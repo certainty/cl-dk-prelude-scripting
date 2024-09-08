@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 script.lisp"
+  exit 1
+fi
+
+sbcl --core $HOME/common-lisp/cl-dk-prelude-scripting.core --script $1
+
